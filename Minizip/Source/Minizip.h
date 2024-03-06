@@ -17,8 +17,8 @@ FOUNDATION_EXPORT double MinizipVersionNumber;
 //! Project version string for Minizip.
 FOUNDATION_EXPORT const unsigned char MinizipVersionString[];
 
-#import <Minizip/ioapi.h>
-#import <Minizip/ioapi_buf.h>
-#import <Minizip/ioapi_mem.h>
-#import <Minizip/unzip.h>
-#import <Minizip/zip.h>
+#import "ioapi.h"
+#import "ioapi_buf.h"
+#import "ioapi_mem.h"
+#import "unzip.h"
+#import "zip.h"
